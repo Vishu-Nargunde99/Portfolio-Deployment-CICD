@@ -1,6 +1,11 @@
 # Portfoli Deployment Via CICD-Jenkins
 
-## Introduction
+## Introduction :
+Deploying a portfolio website manually every time you make changes can be time-consuming and error-prone. To solve this, we use Jenkins CI/CD pipelines, which automate the entire process of building, testing, and deploying the website.
+
+In this project, the portfolio application is connected to Jenkins, so whenever code is updated in the GitHub repository, Jenkins automatically pulls the latest changes, prepares the files, and deploys them to the web server. This ensures that the portfolio is always up to date, reliable, and quickly delivered without needing manual steps.
+
+By using Jenkins for continuous integration and continuous deployment, the process becomes faster, more consistent, and beginner-friendly for anyone learning automation.
 
 
 ## Step 1 : Create Portfoliop Server.
@@ -135,3 +140,7 @@ http://54.81.24.101:8080/github-webhook/
 ![project screenshot](/Images/output.png)
 
 Congratualion!.....You can successfully deployed your Portfolio  using CICD.
+
+## 📄 Summary
+
+This project demonstrates the automated deployment of a portfolio website using a CI/CD pipeline with Jenkins. The pipeline is integrated with GitHub, so whenever code changes are pushed, Jenkins automatically pulls the latest code, builds it, and deploys it to the web server. This approach eliminates manual deployment steps, ensures the portfolio is always up to date, and provides a faster, more reliable release process. By implementing CI/CD, the portfolio becomes easy to maintain, consistent, and professional.
