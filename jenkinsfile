@@ -14,20 +14,7 @@ pipeline {
                 git url: 'https://github.com/Vishu-Nargunde99/Portfolio-Deployment-CICD', branch: 'master'
             }
         }
-        stage('Check Workspace') {
-            steps {
-                sh '''
-                        echo "Files in Jenkins workspace:"
-                        ls -R
-                    '''
-            }
-        }
-
-        stage('Clean Workspace') {
-            steps {
-                    deleteDir()
-            }
-        }
+        
 
 
         stage('Deploy to Apache Server') {
