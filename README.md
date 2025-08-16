@@ -111,6 +111,8 @@ You can clone this repo on your local machine and upload to your GitHub account.
 - Click on "Save".
 - Click on "Build Now"
 
+![project screenshot](/Images/build%20success.PNG)
+
 Here build now is successfull.
 
 ## Step 8 : Generate Automate code push
@@ -130,5 +132,6 @@ http://54.81.24.101:8080/github-webhook/
 - Add webhook
 - Now you can just chnage your code then add, commit and push code to your reposotory.
 
+![project screenshot](/Images/output.png)
 
 Congratualion!.....You can successfully deployed your Portfolio  using CICD.
